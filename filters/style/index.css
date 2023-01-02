@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+div {
+  display: none;
+}
+
+img {
+  width: 20%;
+  margin-left: -58px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+li {
+  margin-top: 15px;
+  opacity: 0.7;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  margin: 55px;
+}/*# sourceMappingURL=index.css.map */
