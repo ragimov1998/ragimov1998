@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+ul {
+  margin: 43px 36px;
+  li {
+    margin-bottom: 28px;
+  }
+}
+button {
+    margin-bottom: 36px;
+    width: 144.14px;
+    height: 44px;
+    border: 3px solid #23a6f0;
+    border-radius: 37px;
+    margin-top: 18px;
+    margin-right: 10px;
+    :hover{ 
+        transition: all linear 0.3s;
+        color: red;
+    
+    }
+    a{
+        font-weight: bold;
+        color: rgb(0, 34, 144);
+    }
+}
+.title {
+  text-align: center;
+  h2 {
+    font-weight: bold;
+    margin: 20px;
+  }
+  p {
+    opacity: 0.7;
+  }
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  :hover{ background-color: gray;
+    rotate: 180deg;
+    transition: all linear 0.7s;
+    border-radius: 6px;
+  }
+  &__card {
+    width: 25%;
+    position: relative;
+    .icon{
+position: absolute;
+left: 66px;
+bottom: 67px;
+    }
+    .icon1{
+        position: absolute;
+        top: 186px;
+        left: 95px;
+    }
+    .icon2{
+        right: 152px;
+        position: absolute;
+        top: 186px;
+    }
+    .icon3{
+        right: 101px;
+        position: absolute;
+        top: 186px;
+    }
+    
+
+    &--img {
+      width: 60%;
+      height: 241px;
+      margin: auto;
+      border-radius: 11px;
+    }
+  }
+}
+span {
+  display: flex;
+  margin-left: 50px;
+  .oldprice {
+    opacity: 0.7;
+    text-decoration-line: line-through;
+  }
+  .sale {
+    color: green;
+    font-weight: 600;
+    font-weight: bold;
+  }
+}
+li {
+  text-align: end;
+}
+.views{
+    opacity: 0.7;
+}

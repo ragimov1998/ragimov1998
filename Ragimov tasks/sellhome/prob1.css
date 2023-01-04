@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(./style/img/2023-mclaren-artura-101-1655218102.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.prob1 {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+}
+
+h2:hover {
+  background: chartreuse;
+}
+
+li {
+  display: none;
+}
+
+li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+h2:hover > li {
+  display: block;
+}/*# sourceMappingURL=prob1.css.map */

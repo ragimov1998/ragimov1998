@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="stylesheet" href="./teze.css">
+  <body>
+
+<div class="main">
+    
+   <div class="left">
+    <img src="./pexels-angelo-duranti-3512848.jpg" alt="image">
+   </div> 
+    
+    
+    <div class="right">
+        <b><h1>Book Appointment</h1></b>
+        <label for="name">Name *</label>
+        <br>
+        <input 
+        type="text" 
+        placeholder="Full Name*"
+        id="name">
+        <br>
+
+        <label for="email">Email address *</label>
+        <br>
+        <input 
+        type="text" 
+        placeholder="example@gmail.com"
+        id="name">
+        <br>
+
+
+        <label for="aze">Departement *</label>
+        <br>
+        <input 
+        list="departament" 
+        placeholder="Please Select"
+        id="Departement"
+        name="aze">
+        <datalist id="departament">
+            <option value="1Floor"></option>
+            <option value="2Floor"></option>
+        </datalist>
+
+
+<br>
+<label for="time">Time *</label>
+        <br>
+        <input 
+        list="times" 
+        placeholder="4:00 Aviable"
+        id="time"
+        name="time">
+        <datalist id="times">
+            <option value="12:00"></option>
+            <option value="13:00"></option>
+        </datalist>
+        <br>
+
+
+        <button>Book Appointment</button>
+
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+  </body>
+</html>

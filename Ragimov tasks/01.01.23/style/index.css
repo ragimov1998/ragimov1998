@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  margin: 43px 36px;
+}
+ul li {
+  margin-bottom: 28px;
+}
+
+button {
+  margin-bottom: 36px;
+  width: 144.14px;
+  height: 44px;
+  border: 3px solid #23a6f0;
+  border-radius: 37px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+button :hover {
+  transition: all linear 0.3s;
+  color: red;
+}
+button a {
+  font-weight: bold;
+  color: rgb(0, 34, 144);
+}
+
+.title {
+  text-align: center;
+}
+.title h2 {
+  font-weight: bold;
+  margin: 20px;
+}
+.title p {
+  opacity: 0.7;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards :hover {
+  background-color: gray;
+  rotate: 180deg;
+  transition: all linear 0.7s;
+  border-radius: 6px;
+}
+.cards__card {
+  width: 25%;
+  position: relative;
+}
+.cards__card .icon {
+  position: absolute;
+  left: 66px;
+  bottom: 67px;
+}
+.cards__card .icon1 {
+  position: absolute;
+  top: 186px;
+  left: 95px;
+}
+.cards__card .icon2 {
+  right: 152px;
+  position: absolute;
+  top: 186px;
+}
+.cards__card .icon3 {
+  right: 101px;
+  position: absolute;
+  top: 186px;
+}
+.cards__card--img {
+  width: 60%;
+  height: 241px;
+  margin: auto;
+  border-radius: 11px;
+}
+
+span {
+  display: flex;
+  margin-left: 50px;
+}
+span .oldprice {
+  opacity: 0.7;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+span .sale {
+  color: green;
+  font-weight: 600;
+  font-weight: bold;
+}
+
+li {
+  text-align: end;
+}
+
+.views {
+  opacity: 0.7;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-transform: none;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 3%;
+}
+
+div li:hover {
+  background: #029bd5;
+}
+
+div > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #313131;
+  color: #fff;
+}
+
+div > ul > li {
+  position: relative;
+  font-size: 18px;
+  width: 171px;
+  height: 57px;
+  line-height: 51px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.dropdown li {
+  background: #313131;
+  display: none;
+}
+
+.dropdown li:hover {
+  background: #029bd5;
+}
+
+li:hover > .dropdown li {
+  display: block;
+}/*# sourceMappingURL=selhome.css.map */
